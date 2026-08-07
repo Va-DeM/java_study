@@ -1,0 +1,25 @@
+# Gradle
+build/
+.gradle/
+*.gradle~
+
+# IDE
+.idea/
+.env
+.vscode/
+*.iml
+*.iws
+*.ipr
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Data files (runtime JSON storage at project root, not the com.vkbot.data source package)
+/data/
+
