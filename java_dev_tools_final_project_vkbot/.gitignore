@@ -1,0 +1,39 @@
+# Gradle
+build/
+.gradle/
+*.gradle~
+
+# IDE
+.idea/
+.env
+.vscode/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Logs
+*.log
+logs/
+
+# Data files (runtime JSON storage at project root, not the com.vkbot.data source package)
+/data/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
