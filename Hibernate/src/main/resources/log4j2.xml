@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+    <Appenders>
+        <Console name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%p] %C{1} [%M] (%F:%L) - %m%n" />
+            <ThresholdFilter level="INFO" onMatch= "ACCEPT" onMismatch="DENY" />
+        </Console>
+
+    </Appenders>
+
+    <Loggers>
+        <Logger name="org.hibernate.SQL" level="INFO" />
+        <Root level="DEBUG">
+            <AppenderRef ref="STDOUT" level="INFO" />
+        </Root>
+    </Loggers>
+
+</Configuration>

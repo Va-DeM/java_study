@@ -1,0 +1,25 @@
+{
+  "age": 30,
+  "car": {
+    "licensePlate": "A111BB777"
+  },
+  "children": [
+    "Olga",
+    "Petr"
+  ],
+  "hobbies": [
+    "java",
+    "сноуборд"
+  ],
+  "job": {
+    "since": [
+      2022,
+      2,
+      20
+    ],
+    "city": "Moscow",
+    "salary": 80000.00
+  },
+  "married": true,
+  "name": "Василий"
+}
